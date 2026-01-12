@@ -1,0 +1,33 @@
+{
+  "name": "pos-system",
+  "version": "1.0.0",
+  "description": "Comprehensive POS System for x86 Architecture",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backup": "node backup-script.js",
+    "restore": "node restore-script.js"
+  },
+  "keywords": [
+    "pos",
+    "retail",
+    "inventory",
+    "cashier",
+    "employee-management",
+    "x86"
+  ],
+  "author": "POS System Team",
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "os": ["win32", "linux"]
+  },
+  "cpu": ["x64", "ia32"],
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
